@@ -1,0 +1,56 @@
+.msgpadrao-logar {
+    white-space: nowrap;
+    font-size: 1em;
+    border-radius: 3px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.msgpadrao-logar a {
+    display: inline-block;
+    padding: 0.5em 0.5em 0.4em 0.5em;
+}
+.msgpadrao-absolute-estoque {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: +10;
+    padding: 0.5em;
+    background-color: grey;
+    color: #FFF;
+    line-height: 1.2em;
+    font-size: 0.8em;
+    transform: translateY(-100%);
+}
+.msgpadrao-absolute-estoque::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 7px);
+  border-top: 7px solid grey;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+.msgpadrao-absolute-estoque.mostrar {
+    display: block;
+}
+
+
+
+.msgpadrao-logar.comtagbr {
+    width: 6.5em;
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 1em;
+}
+.msgpadrao-logar.comtagbr a {
+    padding: 0;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    
+}

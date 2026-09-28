@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+
+
+section.container-section-preco ul {
+    display: flex;
+    flex-direction: column;
+    font-size: initial;
+    box-sizing: border-box;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 7px;
+    border-radius: 7px;
+}
+
+section.container-section-preco ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section.container-section-preco ul li:after {
+    content: "";
+    width: 100%;
+    height: 0;
+    border:0;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin: 0.55em 0 0.8em 0;
+    border-color: #e6e6e6;
+}
+section.container-section-preco ul li:last-child:after {
+    content: none;
+}
+
+section.container-section-preco ul li .cont-infos {
+    position: relative;
+    display: flex;
+}
+section.container-section-preco ul li .cont-infos.preco {
+    flex-direction: column;
+}
+section.container-section-preco ul li .cont-infos.preco .valor_antigo {
+    text-decoration: line-through;
+    text-align: right;
+    font-size: 0.9em;
+    font-family: "Timmana", sans-serif;
+}
+section.container-section-preco ul li .cont-infos.preco .valor_antigo .m {
+    display:none;
+}
+section.container-section-preco ul li .cont-infos.mensagem {
+    flex-direction: row;
+}
+
+section.container-section-preco ul li .cont-infos.preco .valor {
+    font-size: 1.9em;
+    font-family: "Timmana", sans-serif;
+    margin-bottom: -0.3em;
+}
+
+section.container-section-preco ul li .cont-infos.preco .valor i {
+    font-size: 0.7em;
+}
+section.container-section-preco ul li .cont-infos.preco .valor .m {
+    font-size: 0.6em;
+}
+section.container-section-preco ul li .cont-infos.preco .valor .m::after {
+    content: "";
+    width: 4px;
+    display: inline-block;
+}
+section.container-section-preco ul li .cont-infos.preco .valor i {
+    margin-left: 5px;
+}
+
+section.container-section-preco ul li .cont-infos.preco .tipo {
+    /* font-family: "Timmana", sans-serif; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+section.container-section-preco ul li .cont-infos.mensagem .parcelamento {
+    font-family: "Timmana", sans-serif;
+    font-size: 1.5em;
+    margin-bottom: -0.5em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+section.container-section-preco ul li .cont-infos.mensagem .parcelamento .txt-parc {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: .8em;
+    font-style: italic;
+}
+
+
+/*INDEX*/
+section.container-section-preco.index ul {
+    padding: 0.5em 1em;
+    font-size: 0.75em;
+    margin: 0 0 2em 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+section.container-section-preco.index ul li {
+    padding: 0.9em 0;
+}
+section.container-section-preco.index ul li:after {
+    margin: 0.7em 0 0 0;
+}
+section.container-section-preco.index ul li .cont-infos.login {
+    font-size: 0.95em;
+}
+section.container-section-preco.index ul li .cont-infos.preco .valor_antigo {
+    position: absolute;
+    right: 0;
+    top: -1em;
+    height: 1em;
+}
+
+
+
+/*PRODUTO*/
+section.container-section-preco.produto ul {
+    width: 25em;
+}
+
+
+/*CATALOGO*/
+section.container-section-preco.catalogo ul {
+    background-color: white;
+    width: 25em;
+    margin-bottom: 2em!important;
+}
+
+/*LIVE*/
+section.container-section-preco.live ul {
+    font-size: 0.7em;
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 990px) {
+    section.container-section-preco.catalogo ul {
+        width: 100%;
+    }    
+}
+
+
+@media screen and (max-width: 767px) {
+    section.container-section-preco.produto ul,
+    section.container-section-preco.catalogo ul {
+        width: 25em;
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (max-width: 440px) {
+    section.container-section-preco.catalogo ul,
+    section.container-section-preco.produto ul {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 355px) {
+
+    section.container-section-preco ul li:after {
+        margin: 1em 0 1.2em 0;
+    }
+    section.container-section-preco ul li .cont-infos {
+        align-self: center;
+        flex-direction: column;
+    }
+    section.container-section-preco.produto ul li .cont-infos.preco {
+        flex-direction: column;
+        align-items: center;
+    }
+    section.container-section-preco ul li .cont-infos.mensagem {
+        margin-top: 0.7em;
+    }
+
+    section.container-section-preco ul li .cont-infos.mensagem .parcelamento {
+        margin: 0.3em 0 -0.3em 0;
+    }
+}

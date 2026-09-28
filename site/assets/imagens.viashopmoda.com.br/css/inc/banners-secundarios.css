@@ -1,0 +1,64 @@
+/*BANNERS INDEX*/
+.banners-index {
+  margin: 20px 0;
+}
+.banners-index ul {
+    margin: 0 auto;
+  }
+  .banners-index li {
+    display: inline-block;
+  }
+  .banners-index li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .banners-index .ban-med {
+    width: 63%;
+    margin-bottom: 1.5%;
+  } /*medio*/
+  .banners-index .ban-peq {
+    width: 35.5%;
+    float: right;
+  } /*pequenos*/
+  .banners-index .ban-peq a:first-child img,
+  .banners-index .ban-peq img:first-child {
+    margin-bottom: 4%;
+  } /*pequenos*/
+  .banners-index .ban-gra {
+    width: 100%;
+  } /*grande*/
+
+
+  section.banners-index-mobile{
+    display: none;
+  }
+
+
+@media screen and (max-width: 767px) {
+  section.banners-index-mobile{
+    display: block;
+  }
+  section.banners-index-mobile ul {
+      display: flex;
+      flex-direction: column;
+      margin: 0.95em 3.15%;
+  }
+
+  section.banners-index-mobile ul li img {
+    width: 100%;
+    height: 100%;
+  }
+
+  section.banners-index-mobile ul li {
+      margin-bottom: 0.95em;
+      text-align: center;
+  }
+
+  section.banners-index-mobile ul li:last-child {
+      margin-bottom: unset;
+  }
+  section.banners-index-mobile ul li a {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.donate-copy {
+  float: left;
+  width: 490px;
+}
+
+.donate-form {
+  float: left;
+}
+
+#wrapper {
+  padding: 0 20px;
+  max-width: 700px;
+}
+
+/* override bootstrap */
+.demo input {
+  border-radius: 2px;
+  width: 300px;
+}
+
+.demo ::-webkit-input-placeholder {
+  color: #BBB;
+}
+
+.demo ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #BBB;
+  opacity: 1;
+}
+
+.demo :-ms-input-placeholder {
+  color: #BBB;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions a {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .donate-copy {
+    width: 100%;
+  }
+}
+
+#donate {
+  color: #fff;
+  border-color: #ff3053;
+  background-color: #ff5471;
+}
+#donate:HOVER {
+  background-color: #f5276a;
+}

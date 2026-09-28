@@ -1,0 +1,587 @@
+.minha-sacola #carregandoEelemento {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  z-index: +2;
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 100%;
+}
+.minha-sacola #carregandoEelemento i {
+  margin-top: 15%;
+  font-size: 2em;
+}
+
+.minha-sacola,
+.minha-sacola-on {
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  right: -420px;
+  width: 420px;
+  height: 100%;
+  background-color: #FFF;
+  transition: right 0.5s ease;
+}
+.minha-sacola-on {
+  right: 0;
+}
+.minha-sacola h2 {
+  line-height: 2.5em;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  vertical-align: bottom;
+  background-color: #897849;
+  font-size: 1.8em;
+  font-style: italic;
+  color: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.minha-sacola h2 .fa-shopping-bag {
+  display: inline-block;
+  margin: -0.2em 0.5em 0 1em;
+  color: #fff;
+}
+.minha-sacola h2 .fa-times {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 0.5em);
+  margin-right: 0.8em;
+  color: #fff;
+}
+
+.minha-sacola .container {
+  position: relative;
+  height: 100%;
+  color: #85837a;
+  font-size: 0.7em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.minha-sacola input {
+  color: #85837a;
+  font-size: 0.9em;
+  font-family: "Quicksand", sans-serif;
+}
+
+.minha-sacola .div-scroll {
+  position: relative;
+  overflow-y: scroll;
+  background-color: #fff;
+  flex-grow: 1;
+}
+.minha-sacola .ul-produtos {
+  background-color: #fff;
+  padding: 0 1.7em;
+}
+
+.li-produto-minha-sacola {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  padding-top: 2.5em;
+  width: 100%;
+}
+.minha-sacola .sacolaProdutoExcluir {
+  position: absolute;
+  z-index: +1;
+  right: 0;
+  top: 1.5em;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.sacolaProdutoExcluir:hover {
+  animation: tremer 0.1s;
+  animation-iteration-count: 3;
+  color: red;
+}
+.minha-sacola .foto {
+  float: left;
+  width: 23%;
+  margin-right: 7%;
+}
+.minha-sacola .foto img {
+  width: 100%;
+  -webkit-outline: 1px solid rgba(0, 0, 0, 0.08);
+  -moz-outline: 1px solid rgba(0, 0, 0, 0.08);
+  -ms-outline: 1px solid rgba(0, 0, 0, 0.08);
+  -o-outline: 1px solid rgba(0, 0, 0, 0.08);
+  outline: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+
+.minha-sacola .link-acessar-produto {
+  cursor: pointer;
+}
+
+.minha-sacola .descricao {
+  position: relative;
+  font-size: 0.9em;
+  height: 1.55rem;
+  padding-right: 1.7em;
+}
+.minha-sacola .descricao span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 0.8em;
+  margin-top: 1em;
+}
+.minha-sacola .descricao:hover span {
+  display: block;
+}
+
+.minha-sacola .referencia {
+  color: #897849;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0.5em 0;
+}
+
+
+.linha.dois {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  margin: 1.7em 0;
+}
+
+.minha-sacola .li-produto-minha-sacola .valor{
+  width: 60%;
+}
+.minha-sacola .li-produto-minha-sacola .quantidade {
+  width: 40%;
+}
+.minha-sacola .li-produto-minha-sacola .quantidade {
+  position: relative;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fafafb;
+  border: 1px solid #f0f0f0;
+  border-radius: 3px;
+}
+.minha-sacola .li-produto-minha-sacola .quantidade input {
+  width: 30%;
+  font-size: 1.1em;
+  text-align: center;
+  border: 0;
+  background-color: transparent;
+}
+.minha-sacola .li-produto-minha-sacola .btn-qtd-minhasacola{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 3em;
+  font-size: 0.8em;
+  width: 30%;
+  text-align: center;
+}
+.minha-sacola .li-produto-minha-sacola .btn-qtd-minhasacola:hover{
+  cursor: pointer;
+  color: #897849;
+}
+.alerta-estoque {
+  display: none;
+  position: absolute;
+  left: -4.5em;
+  top: -55px;
+  z-index: +1;
+  width: 12em;
+  padding: 0.5em;
+  line-height: 12px;
+  background-color: #808080;
+  color: #FFF;
+  font-size: 1.1em;
+}
+.minha-sacola .valor {
+  text-align: right;
+  font-size: 1.4em;
+  font-family: "Timmana", sans-serif;
+  color: #aaa;
+}
+
+
+.minha-sacola .linha.tres {
+  display: inline-block;
+  font-size: 0.8em;
+  width: 70%;
+}
+.minha-sacola .cor,
+.minha-sacola .tamanho {
+  display: inline-block;
+  line-height: 12px;
+}
+
+.minha-sacola .cor .nome{
+  display: inline-block;
+}
+
+.minha-sacola .cor i {
+  float: left;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-size: 100%;
+  margin-right: 0.2em;
+  border: 1px solid #d1d1d1;
+  margin-top: -1px;
+}
+
+.minha-sacola .tamanho::before {
+  content: "/";
+  padding: 0 0.5em;
+}
+
+
+.minha-sacola .finalizar-compra {
+  /* text-align: center;
+  height: 11em; */
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.minha-sacola .finalizar-compra, .menu-checkout {
+  background-color: #fafafa;
+  color: #000;
+}
+
+
+
+#containerRodapeSacola > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em 1em 2em;
+  font-size: 1em;
+}
+
+#containerRodapeSacola > ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+  padding-bottom: .7em;
+}
+
+ul.novoresumo-sacola .resumo {
+  font-size: 1.2em;
+}
+
+#containerRodapeSacola > ul > li.total {
+  padding-bottom: 0;
+}
+div#containerRodapeSacola .total .titulo {
+  padding-top: 8px;
+}
+div#containerRodapeSacola .total .titulo .font-precos {
+  font-size: 1.3em;
+}
+div#containerRodapeSacola .total .resumo {
+  font-size: 1.7em;
+}
+
+#containerRodapeSacola > ul.gameficacao-sacola > li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#containerRodapeSacola > ul.gameficacao-sacola .percent {
+  width: 100%;
+  margin-top: .5em;
+}
+#containerRodapeSacola > ul.gameficacao-sacola .titulo {
+  text-align: left;
+  font-weight: bold;
+}
+#containerRodapeSacola > ul.gameficacao-sacola .barra-progressao {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-color: rgb(0, 0, 0, .06);
+}
+#containerRodapeSacola .beneficios .resumo {
+  display: flex;
+}
+
+#containerRodapeSacola .beneficios .resumo > div {
+  padding-left: .5em;
+}
+
+
+
+/* .minha-sacola .total {
+  padding: 3em 1.8em;
+}
+.minha-sacola .total p {
+  float: left;
+  font-size: 1.1em;
+  text-transform: lowercase;
+  text-align: left;
+}
+.minha-sacola .total p strong {
+  font-size: 1.2em;
+  font-family: "Timmana", sans-serif;
+}
+.minha-sacola .total div {
+  float: right;
+  font-size: 2em;
+  font-family: "Timmana", sans-serif;
+  color: #897849;
+} */
+
+.button-finalizarcomprar {
+  /*BOTAO*/
+  width: 90%;
+  font-size: 1.1em;
+}
+.button-finalizarcomprar i {
+  /*BOTAO*/
+  font-size: 1.2em;
+}
+
+.button-finalizarcomprar.erro{
+  animation: tremer-2x 0.1s;
+  animation-iteration-count: 2;
+}
+
+.button-finalizarcomprar.aviso-consignado {
+  background-color: tomato;
+}
+
+
+/*EXCLUIR PRODUTO DA SACOLA*/
+.content-confirma-excluir-produto-sacola .foto {
+  display: inline-block;
+  width: 35%;
+  margin: 0 5% 0 2%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content-confirma-excluir-produto-sacola .foto img {
+  width: 100%;
+}
+.content-confirma-excluir-produto-sacola .infos {
+  display: inline-block;
+  vertical-align: top;
+  padding: 13% 0;
+}
+.content-confirma-excluir-produto-sacola .pergunta {
+  text-transform: uppercase;
+  padding: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.2em;
+}
+.content-confirma-excluir-produto-sacola .grade-estampa {
+  font-size: 0.6em;
+  margin: 50px 0;
+}
+.content-confirma-excluir-produto-sacola .grade-estampa span {
+  line-height: 30px;
+}
+.content-confirma-excluir-produto-sacola .grade-estampa i {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.content-confirma-excluir-produto-sacola .grade-estampa .tamanho::before {
+  content: "/";
+  padding: 0 0.5em;
+}
+
+.btnExcluirProduto-confirmar {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.btnExcluirProduto-confirmar,
+.btnExcluirProduto-cancelar {
+  width: 160px;
+  border: 3px solid #897849;
+}
+.btnExcluirProduto-cancelar {
+  border: 3px solid #000;
+}
+
+
+
+/*BENEFÍCIOS NA COMPRA*/
+.beneficios-compra {
+  position: fixed;
+  z-index: 98;
+  width: 100%;
+  color: white;
+  font-size: 0.8em;
+  transform: translateY(-200%);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+
+.beneficios-compra.on {
+  transform: none;
+}
+.beneficios-compra > div {
+  position: relative;
+  line-height: 4em;
+}
+
+.beneficios-compra .fundo {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(76,1,79);
+  animation: progress-bar-animated 1s linear infinite;
+}
+
+.beneficios-compra .barra {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 0;
+  z-index: -1;
+  height: 100%;
+  background-color: green;
+  transition: width 0.5s ease;
+  animation: progress-bar-animated 1s linear infinite;
+}
+
+.beneficios-compra .fundo,
+.beneficios-compra .barra {
+  background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-size: 1rem 1rem;
+}
+
+.beneficios-compra .beneficios {
+  position: absolute;
+  top: 0;
+  z-index: +1;
+  right: 15px;
+}
+
+.beneficios-compra .beneficios i {
+  font-size: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+
+.btn-mostra-romaneio {
+  display: none;
+}
+.minha-sacola .cont-menu-romaneio {
+  margin: 0;
+  width: 100%;
+  text-align: right;
+  border-bottom: 1px solid #f0f0f0;
+  color: black;
+  background-color: #fafafa;
+}
+
+.minha-sacola .cont-menu-romaneio ul {
+  display: flex;
+  box-sizing: border-box;
+}
+
+/* .cont-menu-romaneio {
+  float: right;
+  text-transform: none;
+  clear: unset!important;
+} */
+
+.cont-menu-romaneio ul {
+  display: inline-block;
+}
+
+
+.cont-menu-romaneio li i {
+  display: block;
+  font-size: 1.8em;
+  background-color: red;
+  border-radius: 50%;
+  width: 2em;
+  line-height: 2em;
+  margin: auto;
+  color: white;
+  margin: 0 auto 0.3em auto;
+}
+
+
+.cont-menu-romaneio li {
+  position: relative;
+  display: inline-block;
+  border-radius: 3px;
+  transition: all 0.1s ease;
+  width: calc(100% / 3);
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin: 1em 0;
+}
+
+
+.container-msg-erro-sacola {margin-top: 3em;text-align: center;}
+
+.container-msg-erro-sacola p {
+    font-size: 1.3em;
+}
+
+.container-msg-erro-sacola i {
+    font-size: 3em;
+}
+
+
+
+@keyframes progress-bar-animated {
+  from { background-position: 0 0; }
+  to { background-position: 30px 0; }
+}
+.progress-bar-animated {
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .minha-sacola{
+    width: 90%;
+    right: -100%;
+  }
+  .minha-sacola-on{
+    width: 90%;
+    right: 0;
+  }
+  /* .cont-menu-romaneio li,
+  .cont-menu-romaneio li a {
+    padding: 1em 0.5em;
+  } */
+}
+
+

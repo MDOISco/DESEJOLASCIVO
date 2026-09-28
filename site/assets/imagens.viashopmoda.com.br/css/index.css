@@ -1,0 +1,417 @@
+body {
+  padding-top: 3.1em;
+}
+.banners-index a:hover img,
+.banner-principal a:hover img {
+  opacity: 0.8;
+}
+
+/*PRODUTOS*/
+.container-produtos #carregandoEelemento {
+  display: block;
+  width: 100%;
+  height: 50em;
+  z-index: +1;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+.container-produtos #carregandoEelemento i {
+  margin-bottom: 1em;
+  font-size: 4em;
+}
+
+.container-produtos {
+  position: relative;
+  margin: 0 auto 2em auto;
+  vertical-align: top;
+}
+
+/*filtro vertical*/
+.filtro-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1%;
+}
+
+.filtro-vertical .filtros {
+  box-sizing: border-box;
+  margin-bottom: 1.5em;
+  background-color: #fff;
+  border-radius: 3px;
+  font-family: "Quicksand", sans-serif;
+}
+.filtro-vertical {
+  padding-bottom: 0.7em;
+}
+.filtro-vertical .filtros #ordenar {
+  border: none;
+}
+.filtro-vertical-titulo {
+  padding: 0.8em 1em;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.filtro-vertical .filtros .filtro-vertical-titulo {
+  cursor: pointer;
+}
+.filtro-vertical-titulo-noborder {
+  border-bottom: none;
+}
+.filtro-vertical p i {
+  float: right;
+}
+.filtro-vertical p span {
+  /* background-color: green; */
+  /* border-radius: 50%; */
+  color: black;
+  /* width: 1.25em; */
+  /* line-height: 1.25em; */
+  margin-right: 0.5em;
+  font-size: 0.9em;
+  /* text-align: center; */
+}
+.filtro-vertical ul {
+  display: block;
+  padding: 0.5em 0.7em;
+}
+.filtro-vertical .filtros ul {
+  border-bottom: 1px solid #e5e5e5;
+}
+.filtro-vertical .filtros ul:last-child {
+  border-bottom: none;
+}
+.filtro-vertical ul a {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+div#divFiltroVertical > ul li.btn-removeFiltro {
+  display: block;
+  padding: 7px;
+  border: 1px solid tomato;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 12px;
+  color: tomato;
+  font-weight: bold;
+}
+.remover-filtros-no-filtro {
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: 0px -4px 20px -5px #9c9c9c;
+}
+
+aside.filtro-vertical ul a[data-title]:hover::after
+/* #filtroVertical_tamanhos a[data-title]:hover::after,
+#filtroVertical_cores a[data-title]:hover::after */
+{
+  content: attr(data-title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  background-color: #666;
+  color: white;
+  font-size: 0.6em;
+  padding: 5px;
+  border-radius: 3px;
+  width: auto;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin-top: -5px;
+  z-index: 2;
+}
+#filtroVertical_cores a{
+  display: inline-block;
+}
+/* #filtroVertical_colecoes{display: block;}
+#filtroVertical_precos{display: block;} */
+#filtroVertical_cores {
+  padding: 0.5em 0 0.5em 0.7em;
+}
+#filtroVertical_tamanhos li,
+#filtroVertical_cores li {
+  display: inline-block;
+  padding: 0.5em;
+  border: 1px solid #e5e5e5;
+  margin: 0 0.5em 0.5em 0;
+  border-radius: 0.25em;
+}
+#filtroVertical_tamanhos li:hover {
+  text-decoration: none;
+  border-color: black;
+  color: black;
+}
+#filtroVertical_cores li {
+  padding: 1.47em;
+  background-size: 100%;
+}
+#filtroVertical_cores li:hover {
+  text-decoration: none;
+  border-color: black;
+}
+
+.filtro-vertical li {
+  font-size: 0.65em;
+  text-transform: uppercase;
+  padding-bottom: 0.6em;
+  cursor: pointer;
+}
+.filtro-vertical li:hover {
+  text-decoration: underline;
+}
+
+.selecionados {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+.btn-caixaGeral-sombra {
+  float: right;
+  margin: 0 0.8em 0.8em 0;
+  font-size: 0.55em;
+  text-transform: uppercase;
+}
+.filtro-vertical .selecionados li i {
+  color: #7b7a80;
+  margin-right: 0.5em;
+}
+
+li.filtrosel-busca {
+  margin-bottom: 0.3em;
+}
+
+
+li.filtrosel-busca div {
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  outline: 1px solid rgba(0,0,0,0.1);
+  padding: 0;
+  margin: 0;
+}
+li.filtrosel-busca input {
+  border: none;
+  line-height: 2em;
+  padding: 0 0 0 5%;
+  margin: 0;
+  width: 85%;
+  display: inline-block;
+  background-color: transparent;
+  /* text-transform: uppercase; */
+  font-family: "Quicksand", sans-serif;
+}
+
+li.filtrosel-busca .fa-search {
+  text-align: center;
+  position: absolute;
+  right: 0;
+  margin-right: 0 !important;
+  padding: 0 3.5%;
+  line-height: 2em;
+  cursor: pointer;
+}
+
+/*lista de produtos*/
+.div-produtos-index {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#ulListaProdutos {
+  position: relative;
+}
+#ulListaProdutos .li-produto a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.li-produto {
+  padding: 0.65%;
+  margin-bottom: 1.5em;
+  display: inline-block;
+  vertical-align: top;
+}
+.li-produto .foto {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  /* margin-bottom: 0.7em; */
+  padding: 0;
+  overflow: hidden;
+}
+.li-produto .produto-desconto-off {
+  position: absolute;
+  z-index: +1;
+  margin: 0.3em;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 0.4em;
+  text-align: center;
+}
+.li-produto .produto-desconto-off > span {
+  display: block;
+  line-height: 1em;
+}
+.li-produto .produto-desconto-off > span > span:first-child {
+  font-size: 1.2em;
+}
+
+.li-produto .foto img {
+  width: 100%;
+  margin: 0 0 -3px 0;
+  padding: 0;
+  transition: all 0.9s ease-out;
+}
+.produto-hover {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: +1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.li-produto:hover .produto-img {
+  transform: scale(1.5)!important;
+}
+.produto-hover button:focus {
+  outline: none;
+}
+.produto-hover .principal {
+  width: 100%;
+  height: 70%;
+  font-size: 1em;
+  background-color: rgba(137, 120, 73, 0.8);
+}
+
+.produto-hover .detalhar-produto {
+  width: 50%;
+  height: 30%;
+  font-size: 0.7em;
+  background-color: #000;
+}
+
+.div-produtos-index .li-produto .estampas {
+  text-align: center;
+  margin-bottom: 0.7em;
+  min-height: 28px;
+}
+.li-produto .estampas li {
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-right: 0.2em;
+  background-size: 100%;
+}
+
+.li-produto .descricao {
+  font-size: 0.8em;
+  text-align: center;
+  height: 4rem;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  overflow-wrap: anywhere;
+}
+.li-produto .container-preco .parcelamento {
+  vertical-align: middle;
+  margin: 0 0 0 0.5em;
+}
+
+.li-produto:hover .produto-hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.div-carregar-produtos {
+  text-align: center;
+}
+.div-carregar-produtos button {
+  min-width: 20em;
+}
+
+.filtro-vertical .filtros .filtro-vertical-vermais {
+  display: block;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0;
+  border: none;
+  font-size: 0.65em;
+}
+.filtro-vertical .filtros .filtro-vertical-vermais:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#verMais_cores,
+#verMais_tamanhos {
+  padding-top: 0.6em;
+}
+
+
+
+/***************************************************************/
+/* CARREGANDO PRODUTOS */
+
+.carregando-produtos-index {
+  height: unset!important;
+}
+.carregando-produtos-index .produto-img {
+  filter: brightness(0);
+  opacity: 0.01;
+  transition: unset!important;
+}
+
+.carregando-produtos-index .estampas li {
+  background-color: #F3F3F3;
+}
+.carregando-produtos-index aside ul li {
+  background-color: #f3f3f3;
+  margin-bottom: 0.8em;
+  height: 0.6em;
+  display: block;
+  width: 50%;
+}
+
+.carregando-produtos-index aside p {
+  background-color: #f3f3f3;
+  margin: 1em;
+  width: 22%;
+}
+
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+
+@media screen and (max-width: 767px) {
+  .cont-iframe-player-video::after {
+    content: unset;
+  }
+
+  aside.filtro-vertical ul a[data-title]:hover::after{
+    content: "";
+    display: none;
+  }
+}
+

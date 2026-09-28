@@ -1,0 +1,40 @@
+.input-effect[data-toggle="intTelInput"] {
+    padding-left: 90px;
+    box-sizing: border-box;
+}
+
+.input-effect[data-toggle="intTelInput"] input {
+    padding: 0!important;
+}
+.input-effect[data-toggle="intTelInput"] input.input-focus {
+    font-size: 1.2em;
+}
+.input-effect .iti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: contents;
+    font-size: 0.7em;
+}
+.iti__selected-dial-code{
+    color: #000;
+}
+
+.iti--separate-dial-code .iti__selected-flag{
+    background-color: unset;
+}
+.iti__flag-container {
+    border-right: 1px solid #e5e5e5;
+}
+.input-effect-focus .iti__flag-container {
+    border-right-color: #000;
+}
+.input-effect-red .iti__flag-container {
+    border-color: red;
+}
+
+.iti__country-list {
+    margin-top: 1px;
+    left: 0;
+    border-color: #000;
+}
