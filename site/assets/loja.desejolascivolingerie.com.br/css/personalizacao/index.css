@@ -6,11 +6,11 @@
             background-color: rgb(0,0,0)
         }
         #logoPrincipal a {
-            background-image: url("https://imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-principal.png");
+            background-image: url("../../../imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-principal.png");
         }          
 
         #logoTopo {
-            background-image: url("https://imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-mintopo-branco.png");
+            background-image: url("../../../imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-mintopo-branco.png");
             
         }
 
@@ -206,7 +206,7 @@
         }
 
         footer .logo-rodape .logo {
-            background-image: url("https://imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-principal-preto.png");
+            background-image: url("../../../imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-principal-preto.png");
         }
         
         footer,
