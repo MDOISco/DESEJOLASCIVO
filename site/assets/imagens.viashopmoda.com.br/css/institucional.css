@@ -1,0 +1,154 @@
+body {
+    padding-top: 3.1em;
+}
+.elemento-responsivo.institucional {
+    margin-top: 3em;
+}
+.elemento-responsivo.institucional > section {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.8em;
+}
+
+/*MENU*/
+.menu-institucional {
+    position: relative;
+    width: 20%;
+    margin-right: 8%;
+}
+.menu-institucional > div {
+    position: absolute;
+    border-right: 1px solid #EBEAE7;
+    border-bottom: 1px solid #EBEAE7;
+    width: 100%;
+    padding: 10% 0 10% 10%;
+}
+.menu-institucional li {
+    padding: 0.5em;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.menu-institucional li.emevidencia {
+    font-weight: bold;
+    list-style-type: disc;
+}
+.menu-institucional li:hover {
+    list-style-type: disc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*CONTEUDO*/
+.conteudo-institucional {
+    position: relative;
+    width: 60%;
+}
+.conteudo-institucional .div-materia {
+    margin-bottom: 4em;
+}
+.conteudo-institucional .conteudoInstitucional_titulo {
+    text-transform: uppercase;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2em;
+    text-indent: 0;
+    color: gray;
+    margin-bottom: 1em;
+}
+
+.conteudo-institucional .materia {
+    line-height: 1.4em;
+}
+
+.conteudo-institucional h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-indent: 0;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+}
+.conteudo-institucional h3 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.2em;
+    text-indent: 0;
+    color: #897849;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+.conteudo-institucional ul {
+    padding: 0 1em;
+    list-style: inside circle;
+}
+.conteudo-institucional li {
+    padding: 0;
+}
+.conteudo-institucional .div-materia img {
+    width: 100%;
+}
+
+
+.content-condicoes-frete .tabela-condicoes-frete thead td {
+    background-color: #EBEAE7;
+}
+
+.content-condicoes-frete .tabela-condicoes-frete td {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EBEAE7;
+}
+
+.content-condicoes-frete .tabela-condicoes-frete {
+    font-size: 0.9em;
+}
+
+.content-condicoes-frete > div {
+    margin-bottom: 50px;
+}
+
+.content-condicoes-frete {
+    /* margin-top: 20px; */
+}
+
+.content-condicoes-frete > div p {
+    margin-bottom: 10px;
+}
+
+
+
+
+.content-usuario-lgpd {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgb(235 234 231);
+    padding: 1em;
+    border: 1px solid rgb(218 218 218);
+    border-radius: 3px;
+}
+
+.content-usuario-lgpd .cont-icone {
+    display: inline-block;
+    width: 3em;
+    vertical-align: top;
+    margin: 0.5em 0.5em 0 0;
+}
+
+.content-usuario-lgpd .cont-conteudo {
+    display: inline-block;
+}
+
+.content-usuario-lgpd i {
+    font-size: 2em;
+}
+.content-usuario-lgpd .materia p {
+    overflow-wrap: anywhere;
+}
+.content-usuario-lgpd .conteudoInstitucional_titulo {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 0.5em;
+}

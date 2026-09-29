@@ -1,0 +1,292 @@
+
+        #logoPrincipal {
+            display: inline-block;
+        }          
+        #logoPrincipal {
+            background-color: rgb(0,0,0)
+        }
+        #logoPrincipal a {
+            background-image: url("../../../imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-principal.png");
+        }          
+
+        #logoTopo {
+            background-image: url("../../../imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-mintopo-branco.png");
+            
+        }
+
+        #topoMenuAtendimento .foto-vendedora-logomarca {
+            
+        }
+
+        .cont-aovivo-topo {
+            opacity: 1;
+        }
+
+        .topo,
+        .beneficios-compra .fundo,
+        .minha-sacola h2,
+        .container-romaneio-sacola>p,
+        .ul-submenu-topo-pagina-off,
+        #topoMenuUsuario>ul>li:hover,
+        #topoMenuAvisos>ul>li:hover,
+        .produto-desconto-off,
+        .li-produto .produto-desconto-off,
+        .btn-filtros-mobile>div,
+        .container-live .cont-fechar-live,
+        .container-live .cont-voltar,
+        #spanInputBuscaTopo,
+        span.container-loading .progresso-bg {
+            background-color: rgb(0,0,0);
+        }
+           
+        .container-avisocliente {
+            background-color: rgb(0,0,0);
+        }
+
+        .link-topo-opcoes:hover, .link-topo-opcoes-hover, .ul-submenu-topo-pagina-off::after {
+            background-color: rgba(255,255,255, 0.2);
+        }
+
+        .topo, .beneficios-compra .fundo, .container-romaneio-sacola>p, .ul-submenu-topo-pagina-off, #topoMenuUsuario>ul>li:hover, #topoMenuAvisos>ul>li:hover, .container-avisocliente, .produto-desconto-off, .li-produto .produto-desconto-off,
+        .minha-sacola h2, .minha-sacola h2 .fa-shopping-bag, .minha-sacola h2 .fa-times,
+        .link-topo-opcoes:hover, .link-topo-opcoes-hover, .ul-submenu-topo-pagina-off i, .ul-submenu-topo-pagina-off::after,
+        .topo .busca label,
+        .topo .busca input,
+        .topo .busca input::placeholder,
+        #btnExcluirBuscaCarregando,
+        #btnExcluirBuscaCarregando .fa-spinner,
+        .topo .opcoes ul li > i,
+        .link-topo-opcoes.topo-sacola .fa-spinner,
+        .btn-filtros-mobile > div,
+        .container-live .cont-fechar-live,
+        .container-live .cont-voltar,
+        .mensagem-pagamento-concluido .mensagem, 
+        .mensagem-pagamento-concluido .icone {
+            color: rgb(255,255,255)!important;
+        }
+
+        .link-topo-opcoes > i > span {
+            color: rgb(255,255,255);
+            background-color: rgba(0,0,0,0.3);
+        }
+                
+        .minha-sacola .total div, 
+        .minha-sacola .total p,
+        .container-total-sacola, 
+        .result-produtos .slick-arrow:before {
+            color: rgb(0,0,0);
+        }
+
+        .custom-control-input:checked ~ .custom-control-label:before,
+        .custom-control-label::before{
+            border-color: rgb(0,0,0);
+        }
+        .custom-control-input:checked ~ .custom-control-label:before {
+            background-color: rgb(0,0,0);
+        }
+
+        .topo .busca input {
+            border-color: rgb(255,255,255);
+        }
+
+        .busca-topo-resultados::after, #fotosProdutos .elevate-zoom-active img, #videosProdutos .elevate-zoom-active img, footer .container-infos-geral .midias-sociais li {
+            border-color: rgb(0,0,0);
+        }
+                        
+        .produto-infos ul.cont-estampas li a:hover,
+        .produto-infos ul.cont-estampas li.acessando a {
+            box-shadow: 0 0 0px 3px #fff, 0 0 0px 4px rgb(0,0,0) !important;
+        }
+        
+        .btn-filtros-mobile > div {
+            background-color: rgb(0,0,0);
+        }
+
+
+        .li-menu-filtro-horizontal {
+            color: rgb(255,255,255);
+        }
+
+        .filtro-horizontal,
+        .condicoes,
+        .conteudo-menu-horizontal,
+        .condicoes li .detalhe-condicao {
+            background-color: rgb(0,0,0);
+        }
+        
+        .li-menu-filtro-horizontal:hover, .li-menu-filtro-horizontal.on, .conteudo-menu-horizontal::before {
+            background-color: rgba(255,255,255, 0.2);
+        }
+        
+        .conteudo-menu-horizontal .produto-destaque, .filtro-horizontal li i.fa-spinner {
+            border-color: rgba(255,255,255, 0.2);
+        }
+        
+        filtro-horizontal, .condicoes, .conteudo-menu-horizontal,
+        .li-menu-filtro-horizontal:hover, .conteudo-menu-horizontal::before,
+        .conteudo-menu-horizontal .produto-destaque, .filtro-horizontal li i.fa-spinner,
+        .conteudo-menu-horizontal .categorias li, .conteudo-menu-horizontal .produto-destaque .descricao,
+        .condicoes li .detalhe-condicao {
+            color: rgb(255,255,255);
+        }
+
+        .condicoes li .detalhe-condicao {
+            
+        }       
+                
+        .fa-spinner,
+        .produto-infos .preco p,
+        button.cancelar,
+        .slick-dots li button:before,
+        .cadastro-resumo li>i,
+        #divCarregando .fa-spin,
+        .msg-preco-produto,
+        section.container-section-preco ul li .cont-infos.preco {
+            color: rgb(0,0,0);
+        }
+
+        button i.fa-spinner {
+            color: rgb(255,255,255);
+        }
+        
+        #btnGeralSubirPagina,
+        button,
+        #btnLogin_Logar,
+        .filtro-vertical .filtros span.titulo-fechar,
+        #refazerBusca_Busca,
+        .msg-preco-produto p span,
+        .dots-fake-fotos-produto li,
+        .msg-preco-produto .ajuda p,
+        .foto-video .cont-opcoes,
+        .produto-infos ul.cont-estampas li a:hover::after,
+        .produto-infos ul.cont-estampas li a:hover::before,
+        .btn-link-cor {
+            background-color: rgb(0,0,0);
+        }
+
+
+        #btnGeralSubirPagina,
+        button,
+        #btnLogin_Logar,
+        .filtro-vertical .filtros span.titulo-fechar,
+        #refazerBusca_Busca,
+        .msg-preco-produto p span,
+        .dots-fake-fotos-produto li,
+        .msg-preco-produto .ajuda p,
+        .foto-video .cont-opcoes,
+        .produto-infos ul.cont-estampas li a:hover::after,
+        .produto-infos ul.cont-estampas li a:hover::before,
+        .btn-link-cor {
+            color: rgb(255,255,255);
+        }
+
+        button.cancelar,
+        #btnLogin_Logar,
+        .btnExcluirProduto-confirmar,
+        .cont-copiacola{
+            border-color: rgb(0,0,0);
+        }
+        ul.ul-filtros .li-filtro.on .cont-foto {
+            box-shadow: 0 0 0 2px rgb(0,0,0);
+        }
+
+        
+        footer {
+            background: rgba(255,255,255, 0.9);
+            background: -moz-linear-gradient(top, rgb(255,255,255) 0%, rgba(255,255,255, 0.9) 80%, rgb(255,255,255) 100%);
+            background: -webkit-linear-gradient(top, rgb(255,255,255) 0%, rgba(255,255,255, 0.9) 80%, rgb(255,255,255) 100%);
+            background: linear-gradient(to bottom, rgb(255,255,255) 0%, rgba(255,255,255, 0.9) 80%, rgb(255,255,255) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgb(181,167,156)", endColorstr="rgba(181,167,156,0.9)", GradientType=0);
+            box-shadow:0 -1px 5px 0 #f3f3f3;
+        }
+        
+        
+        footer li.logo-plataforma a svg {
+            fill: rgb(0,0,0);
+        }
+
+        footer .logo-rodape .logo {
+            background-image: url("../../../imagens.viashopmoda.com.br/upload/SaoPaulo_DesejoLascivo/logo-principal-preto.png");
+        }
+        
+        footer,
+        footer .infos-e-links .institucional li i,
+        footer .container-pagamento-seguranca li,
+        footer .container-infos-geral .midias-sociais li {
+            color: rgb(0,0,0);
+        }
+
+        footer .container-pagamento-seguranca li .icone-pix {
+            filter: brightness(0)
+        }
+        
+        footer .container-pagamento-seguranca li, footer .container-infos-geral .midias-sociais li {
+            border-color: rgb(0,0,0);
+        }
+               
+        footer .container-infos-geral .midias-sociais li:hover {
+            background-color: rgb(0,0,0);
+            color: rgb(255,255,255);
+        }
+        
+        footer .infos-e-links,
+        footer .container-infos-geral .midias-sociais ul, 
+        footer .infos-e-links .institucional li, 
+        footer .infos-e-links .institucional,
+        footer.rodape-pedidos section.container-compra-segura, 
+        footer.rodape-pedidos section.container-servicos-financeiros {
+            border-color: rgba(0,0,0, 0.1);
+        }
+        
+        footer #ulServicosFinanceirosLoja img, .rodape-pedidos .container-servicos-financeiros img {
+            filter: brightness(0)
+        }
+
+
+        .mensagem-pagamento-concluido {
+            
+        color: rgb(255,255,255);
+        border-color: rgb(255,255,255);
+        background: rgba(0,0,0, 0.7);
+        background: -moz-linear-gradient(top, rgb(0,0,0,0.97) 0%, rgba(0,0,0, 0.7) 80%);
+        background: -webkit-linear-gradient(top, rgb(0,0,0,0.97) 0%, rgba(0,0,0, 0.7) 80%);
+        background: linear-gradient(to bottom, rgb(0,0,0,0.97) 0%, rgba(0,0,0, 0.7) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgb(0,0,0,0.97)", endColorstr="rgba(0,0,0,0.7)", GradientType=0);
+    
+        }
+
+        .container-modal-exibe-filtros .modexifiltro-filtro[data-item-filtro="tamanhos"] .ul-filtros li.on,
+        .container-modal-exibe-filtros .modexifiltro-filtro[data-item-filtro="tamanhos"] .ul-filtros li:hover {
+            border-color: rgb(0,0,0);
+            box-shadow: 0 0 0 1px rgb(0,0,0);
+        }
+        .container-modal-exibe-filtros .modexifiltro-filtro[data-item-filtro="estampas"] .ul-filtros li.on label i,
+        .container-modal-exibe-filtros .modexifiltro-filtro[data-item-filtro="estampas"] .ul-filtros li:hover label i {
+            border-color: rgb(0,0,0);
+        }
+
+
+        a.link-filtro[data-filtro="desconto"] .cont-foto {
+            background-color: rgb(0,0,0)!important;
+        }
+            
+        .cabecalho-pagamento-pedido .logo img {   
+            
+        }
+            
+
+
+        .csscustom-bg-topo {
+            background-color: rgb(0,0,0)!important;
+            
+
+        }
+        .csscustom-color-topo {
+            color: rgb(255,255,255)!important;
+        }
+
+        .csscustom-color-menu {
+            color: rgb(0,0,0);
+        }
+
+    

@@ -1,0 +1,214 @@
+{
+    "traducoes": {
+        "en": {
+            "original": "Show original",
+            "en": "English",
+            "es": "Spanish"
+        },
+        "zh": {
+            "original": "显示原文",
+            "en": "英语",
+            "es": "西班牙语"
+        },
+        "hi": {
+            "original": "मूल दिखाएं",
+            "en": "अंग्रेज़ी",
+            "es": "स्पेनिश"
+        },
+        "es": {
+            "original": "Mostrar texto original",
+            "en": "Inglés",
+            "es": "Español"
+        },
+        "fr": {
+            "original": "Afficher l'original",
+            "en": "Anglais",
+            "es": "Espagnol"
+        },
+        "ar": {
+            "original": "عرض النص الأصلي",
+            "en": "الإنجليزية",
+            "es": "الإسبانية"
+        },
+        "bn": {
+            "original": "মূল দেখান",
+            "en": "ইংরেজি",
+            "es": "স্পেনিশ"
+        },
+        "pt": {
+            "original": "Mostrar o original",
+            "en": "Inglês",
+            "es": "Espanhol"
+        },
+        "ru": {
+            "original": "Показать оригинал",
+            "en": "Английский",
+            "es": "Испанский"
+        },
+        "id": {
+            "original": "Tampilkan aslinya",
+            "en": "Inggris",
+            "es": "Spanyol"
+        },
+        "ur": {
+            "original": "اصل دکھائیں",
+            "en": "انگریزی",
+            "es": "ہسپانوی"
+        },
+        "de": {
+            "original": "Original anzeigen",
+            "en": "Englisch",
+            "es": "Spanisch"
+        },
+        "ja": {
+            "original": "元のテキストを表示",
+            "en": "英語",
+            "es": "スペイン語"
+        },
+        "sw": {
+            "original": "Onyesha asili",
+            "en": "Kiingereza",
+            "es": "Kihispania"
+        },
+        "ta": {
+            "original": "அசல் உரையை காண்பிக்கவும்",
+            "en": "ஆங்கிலம்",
+            "es": "ஸ்பானிஷ்"
+        },
+        "vi": {
+            "original": "Hiển thị bản gốc",
+            "en": "Tiếng Anh",
+            "es": "Tiếng Tây Ban Nha"
+        },
+        "ko": {
+            "original": "원문 표시",
+            "en": "영어",
+            "es": "스페인어"
+        },
+        "it": {
+            "original": "Mostra il testo originale",
+            "en": "Inglese",
+            "es": "Spagnolo"
+        },
+        "fa": {
+            "original": "نمایش متن اصلی",
+            "en": "انگلیسی",
+            "es": "اسپانیایی"
+        },
+        "pl": {
+            "original": "Pokaż oryginał",
+            "en": "Angielski",
+            "es": "Hiszpański"
+        },
+        "uk": {
+            "original": "Показати оригінал",
+            "en": "Англійська",
+            "es": "Іспанська"
+        },
+        "th": {
+            "original": "แสดงต้นฉบับ",
+            "en": "ภาษาอังกฤษ",
+            "es": "ภาษาสเปน"
+        },
+        "ms": {
+            "original": "Tunjukkan asal",
+            "en": "Bahasa Inggeris",
+            "es": "Bahasa Sepanyol"
+        },
+        "ha": {
+            "original": "Nuna na asali",
+            "en": "Turanci",
+            "es": "Sifaniyanci"
+        },
+        "my": {
+            "original": "မူရင်းစာသားကို ပြပါ",
+            "en": "အင်္ဂလိပ်",
+            "es": "စပိန်"
+        },
+        "am": {
+            "original": "ኦሪጂናሉን አሳይ",
+            "en": "እንግሊዝኛ",
+            "es": "ስፔንኛ"
+        },
+        "ro": {
+            "original": "Afișează originalul",
+            "en": "Engleză",
+            "es": "Spaniolă"
+        },
+        "pa": {
+            "original": "ਅਸਲੀ ਵੇਖਾਓ",
+            "en": "ਅੰਗਰੇਜ਼ੀ",
+            "es": "ਸਪੇਨੀ"
+        },
+        "jv": {
+            "original": "Tampilake asli",
+            "en": "Inggris",
+            "es": "Spanyol"
+        },
+        "te": {
+            "original": "అసలు చూపించు",
+            "en": "ఆంగ్లం",
+            "es": "స్పానిష్"
+        },
+        "mr": {
+            "original": "मूळ दाखवा",
+            "en": "इंग्रजी",
+            "es": "स्पॅनिश"
+        },
+        "tr": {
+            "original": "Orijinali göster",
+            "en": "İngilizce",
+            "es": "İspanyolca"
+        },
+        "tl": {
+            "original": "Ipakita ang orihinal",
+            "en": "Ingles",
+            "es": "Español"
+        },
+        "so": {
+            "original": "Muuji asalka",
+            "en": "Ingiriisi",
+            "es": "Isbaanish"
+        },
+        "yo": {
+            "original": "Fi akọkọ han",
+            "en": "Gẹẹsi",
+            "es": "Sipani"
+        },
+        "zh-TW": {
+            "original": "顯示原文",
+            "en": "英語",
+            "es": "西班牙語"
+        },
+        "ig": {
+            "original": "Gosi ihe mbụ",
+            "en": "Bekee",
+            "es": "Asụ Spen"
+        },
+        "ps": {
+            "original": "اصلي وښاياست",
+            "en": "انګلیسي",
+            "es": "هسپانوي"
+        },
+        "sv": {
+            "original": "Visa originalet",
+            "en": "Engelska",
+            "es": "Spanska"
+        },
+        "hu": {
+            "original": "Mutasd az eredetit",
+            "en": "Angol",
+            "es": "Spanyol"
+        },
+        "cs": {
+            "original": "Zobrazit originál",
+            "en": "Angličtina",
+            "es": "Španělština"
+        },
+        "el": {
+            "original": "Εμφάνιση πρωτότυπου",
+            "en": "Αγγλικά",
+            "es": "Ισπανικά"
+        }
+    }
+}

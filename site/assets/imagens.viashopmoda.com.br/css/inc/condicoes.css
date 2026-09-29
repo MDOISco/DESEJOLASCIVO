@@ -1,0 +1,65 @@
+/*CONDIÇÕES*/
+.condicoes {
+    background-color: #f4f3ee;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+  }
+  .condicoes > ul {
+    margin: auto;
+  }
+  .condicoes li {
+    position: relative;
+    display: inline-block;
+    width: 23%;
+    vertical-align: middle;
+    padding: 1em 1%;
+  }
+  .condicoes li.com-link:hover {
+    /* color: rgba(255,255,255,0.8); */
+    cursor: pointer;
+  }
+  .condicoes li > i {
+    float: left;
+    font-size: 2em;
+    margin-right: 0.2em;
+  }
+  .condicoes span.icone-mais-infos {
+    position: absolute;
+    font-size: 1em;
+    bottom: -18px;
+    font-size: 1.6em;
+  }
+  .condicoes h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  .condicoes p {
+    position: relative;
+    font-size: 0.6em;
+}
+
+
+.condicoes li .detalhe-condicao {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.9);
+  color: #FFF;
+  padding: 1em;
+  font-size: 0.7em;
+  width: 100%;
+  text-transform: none;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  border-radius: 0 0 10px 10px;
+  /* top: 0; */
+  /* transform: translateY(calc(100% + 5px)); */
+  transform: translateY(calc(100% - 5px));
+  bottom: 0;
+}
+
+.condicoes li:hover .detalhe-condicao  {
+  display:block
+}
+
